@@ -1,4 +1,19 @@
+.button-group {
+  .btn:first-of-type {
+    margin-right: 10px;
+  }
+}
+
 .btn {
+  border-radius: 0;
+  padding: 8px 12px;
+
+  .button-icon {
+    max-height: 100%;
+    height: 18px;
+    margin-right: 5px;
+  }
+
   &.btn-primary {
     background-color: $primary-color;
     border-color: $primary-color;
@@ -6,6 +21,17 @@
     &:hover {
       background-color: $primary-color-hover;
       border-color: $primary-color-hover;
+    }
+  }
+
+  &.btn-secondary {
+    background-color: transparent;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+
+    &:hover {
+      color: white;
+      background-color: $primary-color;
     }
   }
 }
