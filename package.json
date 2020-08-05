@@ -1,0 +1,26 @@
+{
+  "name": "cos-accounting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp sass",
+    "dev": "gulp sass:watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dMcCaffree/cos-landing-page.git"
+  },
+  "author": "Dustin McCaffree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dMcCaffree/cos-landing-page/issues"
+  },
+  "homepage": "https://github.com/dMcCaffree/cos-landing-page#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  }
+}

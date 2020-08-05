@@ -1,0 +1,26 @@
+@import './partials/variables';
+@import 'partials/buttons';
+@import 'partials/nav';
+@import 'partials/hero';
+
+html,
+body,
+div,
+p,
+input,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+ol,
+li,
+a {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: white;
+}

@@ -1,0 +1,26 @@
+.navbar {
+  padding: 15px 60px;
+  border-bottom: 1px solid $light-gray;
+  background-color: white;
+
+  .navbar-brand {
+    img {
+      width: 85px;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .nav-link {
+        color: rgba(0,0,0,.6);
+
+        &:hover {
+          color: rgba(0,0,0,.9);
+        }
+      }
+    }
+  }
+}
