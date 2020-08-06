@@ -1,0 +1,22 @@
+.header {
+  h2 {
+    letter-spacing: 1px;
+    width: 100%;
+  }
+
+  p {
+    width: 100%;
+    color: rgba(13, 13, 13, 0.7);
+    letter-spacing: 1px;
+
+    a {
+      text-decoration: underline;
+      color: $primary-color;
+
+      &:hover {
+        color: $primary-color-hover;
+      }
+    }
+  }
+}
+

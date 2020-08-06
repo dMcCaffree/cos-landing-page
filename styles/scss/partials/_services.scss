@@ -100,3 +100,11 @@
     }
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .services {
+    .service {
+      margin-bottom: 30px;
+    }
+  }
+}

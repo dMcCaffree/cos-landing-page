@@ -1,9 +1,14 @@
 @import './partials/variables';
 @import 'partials/buttons';
+@import 'partials/headers';
 @import 'partials/nav';
 @import 'partials/hero';
 @import 'partials/video';
+@import 'partials/videos';
 @import 'partials/services';
+@import 'partials/book-now';
+@import 'partials/team';
+@import 'partials/contact-us';
 
 html,
 body,
@@ -21,6 +26,23 @@ ol,
 li,
 a {
   font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: $primary-color;
+
+  &:hover {
+    color: $primary-color-hover;
+  }
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+iframe {
+  overflow: hidden;
 }
 
 body {

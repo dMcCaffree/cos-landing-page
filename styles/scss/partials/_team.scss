@@ -1,0 +1,28 @@
+.services.team {
+  .service {
+    margin-bottom: 60px;
+    .thumbnail {
+      img {
+        height: 200px;
+      }
+    }
+
+    .details {
+      h4 {
+        margin-bottom: 3px;
+      }
+
+      h5 {
+        color: rgba(0,0,0,.28);
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 15px;
+      }
+
+      p {
+        color: black;
+        font-size: 11px;
+      }
+    }
+  }
+}

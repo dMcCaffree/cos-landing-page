@@ -1,0 +1,17 @@
+.book-now {
+  position: relative;
+
+  &::before {
+    content: '';
+    height: 300px;
+    width: 100%;
+    background-color: $primary-color;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .calendly-inline-widget {
+    height: 700px !important;
+  }
+}

@@ -1,0 +1,47 @@
+.videos {
+  background: rgba(61, 181, 199, 0.05);
+
+  h5 {
+    margin-bottom: 30px;
+  }
+
+  .see-all {
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .video {
+    box-shadow: none;
+    overflow: visible;
+    margin-bottom: 80px;
+
+    .thumbnail {
+      margin-bottom: 20px;
+      position: relative;
+
+      img {
+        border-radius: 8px;
+        box-shadow: 1px 4px 26px rgba(0, 0, 0, 0.28);
+        transition-duration: .2s;
+        max-width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .caption {
+      p {
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .videos {
+    .video {
+      margin-bottom: 30px;
+    }
+  }
+}
